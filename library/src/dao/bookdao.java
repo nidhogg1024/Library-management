@@ -35,4 +35,7 @@ public class bookdao {
         new DBReplease(rs, connection);//释放资源
         return list;
     }
+    public void name() {
+        sout("youmeiyou")
+    }
 }
