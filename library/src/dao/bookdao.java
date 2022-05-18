@@ -31,6 +31,7 @@ public class bookdao {
             b.setCbs(rs.getString(6));
             b.setTime(rs.getDate(7));
             list.add(b);
+            //youmeiyou
         }
         new DBReplease(rs, connection);//释放资源
         return list;
